@@ -1,0 +1,9 @@
+com.aurora.store
+de.tutao.tutanota
+com.termux
+io.ente.auth
+com.celzero.bravedns
+chat.simplex.app
+com.trianguloy.urlchecker
+ru.tech.imageresizershrinker
+io.github.muntashirakon.AppManager
