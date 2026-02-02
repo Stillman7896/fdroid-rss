@@ -24,6 +24,8 @@ jobs:
 
       - name: Update README.md
         run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           echo "<!-- AUTO-GENERATED LIST START -->" > temp_list.txt
           while read pkg; do
           echo "- [$pkg](feeds/$pkg.xml) ([raw](https://raw.githubusercontent.com/${{ github.repository }}/main/feeds/$pkg.xml))" >> temp_list.txt
