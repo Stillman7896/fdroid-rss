@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>F-Droid Updates: com.termux</title>
+  <link>https://f-droid.org/packages/com.termux/</link>
+  <description>RSS feed for com.termux updates on F-Droid</description>
+  <lastBuildDate>Mon, 02 Feb 2026 09:46:27 GMT</lastBuildDate>
+  <item>
+    <title>Version 0.119.0-beta.3 (Code: 1022)</title>
+    <link>https://f-droid.org/packages/com.termux/</link>
+    <guid>https://f-droid.org/packages/com.termux/#0.119.0-beta.3</guid>
+    <pubDate>Mon, 02 Feb 2026 09:46:27 GMT</pubDate>
+    <description>New version 0.119.0-beta.3 released for com.termux.</description>
+  </item>
+</channel>
+</rss>

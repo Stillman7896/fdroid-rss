@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>F-Droid Updates: org.fossify.gallery</title>
+  <link>https://f-droid.org/packages/org.fossify.gallery/</link>
+  <description>RSS feed for org.fossify.gallery updates on F-Droid</description>
+  <lastBuildDate>Mon, 02 Feb 2026 09:46:31 GMT</lastBuildDate>
+  <item>
+    <title>Version 1.11.0 (Code: 25)</title>
+    <link>https://f-droid.org/packages/org.fossify.gallery/</link>
+    <guid>https://f-droid.org/packages/org.fossify.gallery/#1.11.0</guid>
+    <pubDate>Mon, 02 Feb 2026 09:46:31 GMT</pubDate>
+    <description>New version 1.11.0 released for org.fossify.gallery.</description>
+  </item>
+</channel>
+</rss>

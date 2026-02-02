@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>F-Droid Updates: live.mehiz.mpvkt</title>
+  <link>https://f-droid.org/packages/live.mehiz.mpvkt/</link>
+  <description>RSS feed for live.mehiz.mpvkt updates on F-Droid</description>
+  <lastBuildDate>Mon, 02 Feb 2026 09:46:32 GMT</lastBuildDate>
+  <item>
+    <title>Version 0.1.6 (Code: 124)</title>
+    <link>https://f-droid.org/packages/live.mehiz.mpvkt/</link>
+    <guid>https://f-droid.org/packages/live.mehiz.mpvkt/#0.1.6</guid>
+    <pubDate>Mon, 02 Feb 2026 09:46:32 GMT</pubDate>
+    <description>New version 0.1.6 released for live.mehiz.mpvkt.</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>F-Droid Updates: de.tutao.tutanota</title>
+  <link>https://f-droid.org/packages/de.tutao.tutanota/</link>
+  <description>RSS feed for de.tutao.tutanota updates on F-Droid</description>
+  <lastBuildDate>Mon, 02 Feb 2026 09:46:26 GMT</lastBuildDate>
+  <item>
+    <title>Version 325.260127.0 (Code: 396587)</title>
+    <link>https://f-droid.org/packages/de.tutao.tutanota/</link>
+    <guid>https://f-droid.org/packages/de.tutao.tutanota/#325.260127.0</guid>
+    <pubDate>Mon, 02 Feb 2026 09:46:26 GMT</pubDate>
+    <description>New version 325.260127.0 released for de.tutao.tutanota.</description>
+  </item>
+</channel>
+</rss>

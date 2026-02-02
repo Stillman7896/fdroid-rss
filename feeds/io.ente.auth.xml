@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>F-Droid Updates: io.ente.auth</title>
+  <link>https://f-droid.org/packages/io.ente.auth/</link>
+  <description>RSS feed for io.ente.auth updates on F-Droid</description>
+  <lastBuildDate>Mon, 02 Feb 2026 09:46:27 GMT</lastBuildDate>
+  <item>
+    <title>Version 4.4.15 (Code: 590)</title>
+    <link>https://f-droid.org/packages/io.ente.auth/</link>
+    <guid>https://f-droid.org/packages/io.ente.auth/#4.4.15</guid>
+    <pubDate>Mon, 02 Feb 2026 09:46:27 GMT</pubDate>
+    <description>New version 4.4.15 released for io.ente.auth.</description>
+  </item>
+</channel>
+</rss>

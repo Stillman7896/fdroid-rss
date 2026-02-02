@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>F-Droid Updates: io.github.muntashirakon.AppManager</title>
+  <link>https://f-droid.org/packages/io.github.muntashirakon.AppManager/</link>
+  <description>RSS feed for io.github.muntashirakon.AppManager updates on F-Droid</description>
+  <lastBuildDate>Mon, 02 Feb 2026 09:46:30 GMT</lastBuildDate>
+  <item>
+    <title>Version 4.0.5 (Code: 445)</title>
+    <link>https://f-droid.org/packages/io.github.muntashirakon.AppManager/</link>
+    <guid>https://f-droid.org/packages/io.github.muntashirakon.AppManager/#4.0.5</guid>
+    <pubDate>Mon, 02 Feb 2026 09:46:30 GMT</pubDate>
+    <description>New version 4.0.5 released for io.github.muntashirakon.AppManager.</description>
+  </item>
+</channel>
+</rss>
