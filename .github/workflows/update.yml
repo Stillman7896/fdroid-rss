@@ -22,6 +22,20 @@ jobs:
       - name: Generate RSS feeds
         run: python generate_rss.py
 
+      - name: Update README.md
+        run: |
+          echo "<!-- AUTO-GENERATED LIST START -->" > temp_list.txt
+          while read pkg; do
+          echo "- [$pkg](feeds/$pkg.xml) ([raw](https://raw.githubusercontent.com/${{ github.repository }}/main/feeds/$pkg.xml))" >> temp_list.txt
+          done < packages.txt
+          echo "<!-- AUTO-GENERATED LIST END -->" >> temp_list.txt
+          sed -i '/<!-- AUTO-GENERATED LIST START -->/,/<!-- AUTO-GENERATED LIST END -->/c\ ' README.md
+          sed -i '/^ $/r temp_list.txt' README.md
+          rm temp_list.txt
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update package list in README"
+          git push
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
