@@ -7,3 +7,5 @@ chat.simplex.app
 com.trianguloy.urlchecker
 ru.tech.imageresizershrinker
 io.github.muntashirakon.AppManager
+org.fossify.gallery
+live.mehiz.mpvkt
