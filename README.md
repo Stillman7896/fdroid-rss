@@ -1,6 +1,6 @@
 # F-Droid RSS Feeds
 
-Automated RSS feeds for F-Droid app updates.  
+Automated RSS feeds for F-Droid app updates, run once a day
 
 ## Feeds
  
