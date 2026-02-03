@@ -2,18 +2,17 @@ name: Update RSS Feeds
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:      # Allows manual triggering
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Required to push changes
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
-          # Required to fetch all history/tags (avoids "detached HEAD" issues)
           fetch-depth: 0
 
       - name: Set up Python
@@ -29,8 +28,7 @@ jobs:
           python generate_rss.py
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          
-          # Generate the package list for README.md
+
           echo "<!-- AUTO-GENERATED LIST START -->" > temp_list.txt
           while read pkg; do
             REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
@@ -40,15 +38,17 @@ jobs:
             echo "- [$pkg]($GITHUB_PAGES) ([raw]($RAW_URL), [source]($SOURCE_URL))" >> temp_list.txt
           done < packages.txt
           echo "<!-- AUTO-GENERATED LIST END -->" >> temp_list.txt
-          
-          # Update README.md with the new list
-          sed -i '/<!-- AUTO-GENERATED LIST START -->/,/<!-- AUTO-GENERATED LIST END -->/c\ ' README.md
-          sed -i '/^ $/r temp_list.txt' README.md
+
+          sed -i '/<!-- AUTO-GENERATED LIST START -->/,/<!-- AUTO-GENERATED LIST END -->/{
+              /<!-- AUTO-GENERATED LIST START -->/{
+                  r temp_list.txt
+                  a <!-- AUTO-GENERATED LIST END -->
+                  d
+              }
+          /<!-- AUTO-GENERATED LIST END -->/!d
+          }' README.md
           rm temp_list.txt
-          
-          # Stage and commit changes
+
           git add feeds/ README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feeds and package list in README"
-          
-          # Push changes (requires 'contents: write' permission)
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feeds and package list"
           git push
