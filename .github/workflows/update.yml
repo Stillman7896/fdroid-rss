@@ -19,32 +19,23 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate RSS feeds
-        run: python generate_rss.py
-
-      - name: Update README.md
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          echo "<!-- AUTO-GENERATED LIST START -->" > temp_list.txt
-          while read pkg; do
-          REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
-          GITHUB_PAGES="https://${{ github.repository_owner }}.github.io/$REPO_NAME/feeds/$pkg.xml"
-          RAW_URL="https://raw.githubusercontent.com/${{ github.repository }}/main/feeds/$pkg.xml"
-          SOURCE_URL="https://github.com/${{ github.repository }}/blob/main/feeds/$pkg.xml"
-          echo "- [$pkg]($GITHUB_PAGES) ([raw]($RAW_URL), [source]($SOURCE_URL))" >> temp_list.txt
-          done < packages.txt
-          echo "<!-- AUTO-GENERATED LIST END -->" >> temp_list.txt
-          sed -i '/<!-- AUTO-GENERATED LIST START -->/,/<!-- AUTO-GENERATED LIST END -->/c\ ' README.md
-          sed -i '/^ $/r temp_list.txt' README.md
-          rm temp_list.txt
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update package list in README"
-          git push
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add feeds/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feeds"
-          git push
+       - name: Generate RSS feeds and update README
+         run: | 
+           python generate_rss.py
+           git config --local user.email "actions@github.com"
+           git config --local user.name "GitHub Actions"
+           echo "<!-- AUTO-GENERATED LIST START -->" > temp_list.txt
+           while read pkg; do
+           REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+           GITHUB_PAGES="https://${{ github.repository_owner }}.github.io/$REPO_NAME/feeds/$pkg.xml"
+           RAW_URL="https://raw.githubusercontent.com/${{ github.repository }}/main/feeds/$pkg.xml"
+           SOURCE_URL="https://github.com/${{ github.repository }}/blob/main/feeds/$pkg.xml"
+           echo "- [$pkg]($GITHUB_PAGES) ([raw]($RAW_URL), [source]($SOURCE_URL))" >> temp_list.txt
+           done < packages.txt
+           echo "<!-- AUTO-GENERATED LIST END -->" >> temp_list.txt
+           sed -i '/<!-- AUTO-GENERATED LIST START -->/,/<!-- AUTO-GENERATED LIST END -->/c\ ' README.md
+           sed -i '/^ $/r temp_list.txt' README.md
+           rm temp_list.txt
+           git add feeds/ README.md
+           git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feeds and package list in README"
+           git push
