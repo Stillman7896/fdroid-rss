@@ -4,14 +4,14 @@
   <title>F-Droid Updates: org.fossify.gallery</title>
   <link>https://f-droid.org/packages/org.fossify.gallery/</link>
   <description>RSS feed for org.fossify.gallery updates on F-Droid</description>
-  <lastBuildDate>Sun, 08 Feb 2026 01:27:45 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Feb 2026 01:11:25 GMT</lastBuildDate>
   <item>
-    <title>Version 1.12.0 (Code: 26)</title>
+    <title>Version 1.13.0 (Code: 27)</title>
     <link>https://f-droid.org/packages/org.fossify.gallery/</link>
-    <enclosure url="https://f-droid.org/repo/org.fossify.gallery_26.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/org.fossify.gallery/#1.12.0</guid>
-    <pubDate>Sun, 08 Feb 2026 01:27:45 GMT</pubDate>
-    <description>New version 1.12.0 released for org.fossify.gallery. Direct download: https://f-droid.org/repo/org.fossify.gallery_26.apk</description>
+    <enclosure url="https://f-droid.org/repo/org.fossify.gallery_27.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/org.fossify.gallery/#1.13.0</guid>
+    <pubDate>Mon, 09 Feb 2026 01:11:25 GMT</pubDate>
+    <description>New version 1.13.0 released for org.fossify.gallery. Direct download: https://f-droid.org/repo/org.fossify.gallery_27.apk</description>
   </item>
 </channel>
 </rss>
