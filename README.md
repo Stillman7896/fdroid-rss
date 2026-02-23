@@ -54,3 +54,5 @@ Automated RSS feeds for F-Droid app updates, run once a day
 <!-- AUTO-GENERATED LIST END -->
 <!-- AUTO-GENERATED LIST END -->
 <!-- AUTO-GENERATED LIST END -->
+<!-- AUTO-GENERATED LIST END -->
+<!-- AUTO-GENERATED LIST END -->
