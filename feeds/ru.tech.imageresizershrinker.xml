@@ -4,14 +4,14 @@
   <title>F-Droid Updates: ru.tech.imageresizershrinker</title>
   <link>https://f-droid.org/packages/ru.tech.imageresizershrinker/</link>
   <description>RSS feed for ru.tech.imageresizershrinker updates on F-Droid</description>
-  <lastBuildDate>Tue, 03 Mar 2026 01:10:05 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 04 Mar 2026 01:06:11 GMT</lastBuildDate>
   <item>
-    <title>Version 3.6.1 (Code: 204)</title>
+    <title>Version 3.7.0 (Code: 211)</title>
     <link>https://f-droid.org/packages/ru.tech.imageresizershrinker/</link>
-    <enclosure url="https://f-droid.org/repo/ru.tech.imageresizershrinker_204.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/ru.tech.imageresizershrinker/#3.6.1</guid>
-    <pubDate>Tue, 03 Mar 2026 01:10:05 GMT</pubDate>
-    <description>New version 3.6.1 released for ru.tech.imageresizershrinker. Direct download: https://f-droid.org/repo/ru.tech.imageresizershrinker_204.apk</description>
+    <enclosure url="https://f-droid.org/repo/ru.tech.imageresizershrinker_211.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/ru.tech.imageresizershrinker/#3.7.0</guid>
+    <pubDate>Wed, 04 Mar 2026 01:06:11 GMT</pubDate>
+    <description>New version 3.7.0 released for ru.tech.imageresizershrinker. Direct download: https://f-droid.org/repo/ru.tech.imageresizershrinker_211.apk</description>
   </item>
 </channel>
 </rss>
