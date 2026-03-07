@@ -4,14 +4,14 @@
   <title>F-Droid Updates: de.tutao.tutanota</title>
   <link>https://f-droid.org/packages/de.tutao.tutanota/</link>
   <description>RSS feed for de.tutao.tutanota updates on F-Droid</description>
-  <lastBuildDate>Fri, 06 Mar 2026 01:12:25 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 07 Mar 2026 01:04:07 GMT</lastBuildDate>
   <item>
-    <title>Version 328.260224.0 (Code: 396600)</title>
+    <title>Version 332.260303.0 (Code: 396603)</title>
     <link>https://f-droid.org/packages/de.tutao.tutanota/</link>
-    <enclosure url="https://f-droid.org/repo/de.tutao.tutanota_396600.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/de.tutao.tutanota/#328.260224.0</guid>
-    <pubDate>Fri, 06 Mar 2026 01:12:25 GMT</pubDate>
-    <description>New version 328.260224.0 released for de.tutao.tutanota. Direct download: https://f-droid.org/repo/de.tutao.tutanota_396600.apk</description>
+    <enclosure url="https://f-droid.org/repo/de.tutao.tutanota_396603.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/de.tutao.tutanota/#332.260303.0</guid>
+    <pubDate>Sat, 07 Mar 2026 01:04:07 GMT</pubDate>
+    <description>New version 332.260303.0 released for de.tutao.tutanota. Direct download: https://f-droid.org/repo/de.tutao.tutanota_396603.apk</description>
   </item>
 </channel>
 </rss>
