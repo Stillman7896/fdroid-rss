@@ -15,4 +15,6 @@ Automated RSS feeds for F-Droid app updates, run once a day
 - [io.github.muntashirakon.AppManager](https://Stillman7896.github.io/fdroid-rss/feeds/io.github.muntashirakon.AppManager.xml) ([raw](https://raw.githubusercontent.com/Stillman7896/fdroid-rss/main/feeds/io.github.muntashirakon.AppManager.xml), [source](https://github.com/Stillman7896/fdroid-rss/blob/main/feeds/io.github.muntashirakon.AppManager.xml))
 - [org.fossify.gallery](https://Stillman7896.github.io/fdroid-rss/feeds/org.fossify.gallery.xml) ([raw](https://raw.githubusercontent.com/Stillman7896/fdroid-rss/main/feeds/org.fossify.gallery.xml), [source](https://github.com/Stillman7896/fdroid-rss/blob/main/feeds/org.fossify.gallery.xml))
 - [live.mehiz.mpvkt](https://Stillman7896.github.io/fdroid-rss/feeds/live.mehiz.mpvkt.xml) ([raw](https://raw.githubusercontent.com/Stillman7896/fdroid-rss/main/feeds/live.mehiz.mpvkt.xml), [source](https://github.com/Stillman7896/fdroid-rss/blob/main/feeds/live.mehiz.mpvkt.xml))
+- [io.element.android.x](https://Stillman7896.github.io/fdroid-rss/feeds/io.element.android.x.xml) ([raw](https://raw.githubusercontent.com/Stillman7896/fdroid-rss/main/feeds/io.element.android.x.xml), [source](https://github.com/Stillman7896/fdroid-rss/blob/main/feeds/io.element.android.x.xml))
 <!-- AUTO-GENERATED LIST END -->
+
