@@ -9,3 +9,4 @@ ru.tech.imageresizershrinker
 io.github.muntashirakon.AppManager
 org.fossify.gallery
 live.mehiz.mpvkt
+io.element.android.x
