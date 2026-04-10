@@ -60,3 +60,22 @@ jobs:
           git add feeds/ README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feeds and package list"
           git push
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+         path: ./feeds
+
+  deploy:
+    needs: update
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
