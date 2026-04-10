@@ -29,25 +29,33 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
 
-          echo "<!-- AUTO-GENERATED LIST START -->" > temp_list.txt
+          # Generate the new list items (without markers)
+          echo "<!-- AUTO-GENERATED LIST START -->" > new_block.txt
           while read pkg; do
             REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
             GITHUB_PAGES="https://${{ github.repository_owner }}.github.io/$REPO_NAME/feeds/$pkg.xml"
             RAW_URL="https://raw.githubusercontent.com/${{ github.repository }}/main/feeds/$pkg.xml"
             SOURCE_URL="https://github.com/${{ github.repository }}/blob/main/feeds/$pkg.xml"
-            echo "- [$pkg]($GITHUB_PAGES) ([raw]($RAW_URL), [source]($SOURCE_URL))" >> temp_list.txt
+            echo "- [$pkg]($GITHUB_PAGES) ([raw]($RAW_URL), [source]($SOURCE_URL))" >> new_block.txt
           done < packages.txt
-          echo "<!-- AUTO-GENERATED LIST END -->" >> temp_list.txt
+          echo "<!-- AUTO-GENERATED LIST END -->" >> new_block.txt
 
-          sed -i '/<!-- AUTO-GENERATED LIST START -->/,/<!-- AUTO-GENERATED LIST END -->/{
-              /<!-- AUTO-GENERATED LIST START -->/{
-                  r temp_list.txt
-                  a <!-- AUTO-GENERATED LIST END -->
-                  d
-              }
-          /<!-- AUTO-GENERATED LIST END -->/!d
-          }' README.md
-          rm temp_list.txt
+          # Replace the block in README.md using Python
+          python -c "
+          import re
+          with open('README.md', 'r') as f:
+              content = f.read()
+          with open('new_block.txt', 'r') as f:
+              new_block = f.read()
+          # Match the whole block including START and END markers
+          pattern = r'(<!-- AUTO-GENERATED LIST START -->).*?(<!-- AUTO-GENERATED LIST END -->)'
+          # Replace with the new block (which already contains the markers)
+          new_content = re.sub(pattern, new_block, content, flags=re.DOTALL)
+          with open('README.md', 'w') as f:
+              f.write(new_content)
+          "
+
+          rm new_block.txt
 
           git add feeds/ README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feeds and package list"
