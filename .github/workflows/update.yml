@@ -46,7 +46,7 @@ jobs:
           with open('README.md', 'r') as f:
               content = f.read()
           with open('new_block.txt', 'r') as f:
-              new_block = f.read()
+              new_block = f.read().rstrip('\n')
           # Match the whole block including START and END markers
           pattern = r'(<!-- AUTO-GENERATED LIST START -->).*?(<!-- AUTO-GENERATED LIST END -->)'
           # Replace with the new block (which already contains the markers)
