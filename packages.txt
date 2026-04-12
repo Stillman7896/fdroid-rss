@@ -1,6 +1,5 @@
 com.aurora.store
 de.tutao.tutanota
-com.termux
 io.ente.auth
 com.celzero.bravedns
 chat.simplex.app
@@ -8,5 +7,5 @@ com.trianguloy.urlchecker
 ru.tech.imageresizershrinker
 io.github.muntashirakon.AppManager
 org.fossify.gallery
-live.mehiz.mpvkt
 io.element.android.x
+org.unifiedpush.distributor.sunup
