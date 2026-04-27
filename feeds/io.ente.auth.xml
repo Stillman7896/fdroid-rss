@@ -4,14 +4,14 @@
   <title>F-Droid Updates: io.ente.auth</title>
   <link>https://f-droid.org/packages/io.ente.auth/</link>
   <description>RSS feed for io.ente.auth updates on F-Droid</description>
-  <lastBuildDate>Sun, 26 Apr 2026 01:30:31 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 27 Apr 2026 01:44:46 GMT</lastBuildDate>
   <item>
-    <title>Version 4.4.19 (Code: 756)</title>
+    <title>Version 4.4.20 (Code: 760)</title>
     <link>https://f-droid.org/packages/io.ente.auth/</link>
-    <enclosure url="https://f-droid.org/repo/io.ente.auth_756.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/io.ente.auth/#4.4.19</guid>
-    <pubDate>Sun, 26 Apr 2026 01:30:31 GMT</pubDate>
-    <description>New version 4.4.19 released for io.ente.auth. Direct download: https://f-droid.org/repo/io.ente.auth_756.apk</description>
+    <enclosure url="https://f-droid.org/repo/io.ente.auth_760.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/io.ente.auth/#4.4.20</guid>
+    <pubDate>Mon, 27 Apr 2026 01:44:46 GMT</pubDate>
+    <description>New version 4.4.20 released for io.ente.auth. Direct download: https://f-droid.org/repo/io.ente.auth_760.apk</description>
   </item>
 </channel>
 </rss>
