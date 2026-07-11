@@ -4,14 +4,14 @@
   <title>F-Droid Updates: io.element.android.x</title>
   <link>https://f-droid.org/packages/io.element.android.x/</link>
   <description>RSS feed for io.element.android.x updates on F-Droid</description>
-  <lastBuildDate>Fri, 10 Jul 2026 01:49:41 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 01:28:38 GMT</lastBuildDate>
   <item>
-    <title>Version 26.06.4 (Code: 202606044)</title>
+    <title>Version 26.07.0 (Code: 202607004)</title>
     <link>https://f-droid.org/packages/io.element.android.x/</link>
-    <enclosure url="https://f-droid.org/repo/io.element.android.x_202606044.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/io.element.android.x/#26.06.4</guid>
-    <pubDate>Fri, 10 Jul 2026 01:49:41 GMT</pubDate>
-    <description>New version 26.06.4 released for io.element.android.x. Direct download: https://f-droid.org/repo/io.element.android.x_202606044.apk</description>
+    <enclosure url="https://f-droid.org/repo/io.element.android.x_202607004.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/io.element.android.x/#26.07.0</guid>
+    <pubDate>Sat, 11 Jul 2026 01:28:38 GMT</pubDate>
+    <description>New version 26.07.0 released for io.element.android.x. Direct download: https://f-droid.org/repo/io.element.android.x_202607004.apk</description>
   </item>
 </channel>
 </rss>
