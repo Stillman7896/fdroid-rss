@@ -4,14 +4,14 @@
   <title>F-Droid Updates: com.celzero.bravedns</title>
   <link>https://f-droid.org/packages/com.celzero.bravedns/</link>
   <description>RSS feed for com.celzero.bravedns updates on F-Droid</description>
-  <lastBuildDate>Tue, 22 Sep 2026 02:16:24 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 02:16:25 GMT</lastBuildDate>
   <item>
-    <title>Version v0.5.6 (Code: 679)</title>
+    <title>Version v0.5.7 (Code: 699)</title>
     <link>https://f-droid.org/packages/com.celzero.bravedns/</link>
-    <enclosure url="https://f-droid.org/repo/com.celzero.bravedns_679.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/com.celzero.bravedns/#v0.5.6</guid>
-    <pubDate>Tue, 22 Sep 2026 02:16:24 GMT</pubDate>
-    <description>New version v0.5.6 released for com.celzero.bravedns. Direct download: https://f-droid.org/repo/com.celzero.bravedns_679.apk</description>
+    <enclosure url="https://f-droid.org/repo/com.celzero.bravedns_699.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/com.celzero.bravedns/#v0.5.7</guid>
+    <pubDate>Wed, 23 Sep 2026 02:16:25 GMT</pubDate>
+    <description>New version v0.5.7 released for com.celzero.bravedns. Direct download: https://f-droid.org/repo/com.celzero.bravedns_699.apk</description>
   </item>
 </channel>
 </rss>
