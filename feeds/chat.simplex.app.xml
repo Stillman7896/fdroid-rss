@@ -4,14 +4,14 @@
   <title>F-Droid Updates: chat.simplex.app</title>
   <link>https://f-droid.org/packages/chat.simplex.app/</link>
   <description>RSS feed for chat.simplex.app updates on F-Droid</description>
-  <lastBuildDate>Wed, 30 Sep 2026 02:50:50 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 02:56:55 GMT</lastBuildDate>
   <item>
-    <title>Version 7.0.2 (Code: 376)</title>
+    <title>Version 7.0.3 (Code: 382)</title>
     <link>https://f-droid.org/packages/chat.simplex.app/</link>
-    <enclosure url="https://f-droid.org/repo/chat.simplex.app_376.apk" length="1" type="application/vnd.android.package-archive" />
-    <guid>https://f-droid.org/packages/chat.simplex.app/#7.0.2</guid>
-    <pubDate>Wed, 30 Sep 2026 02:50:50 GMT</pubDate>
-    <description>New version 7.0.2 released for chat.simplex.app. Direct download: https://f-droid.org/repo/chat.simplex.app_376.apk</description>
+    <enclosure url="https://f-droid.org/repo/chat.simplex.app_382.apk" length="1" type="application/vnd.android.package-archive" />
+    <guid>https://f-droid.org/packages/chat.simplex.app/#7.0.3</guid>
+    <pubDate>Thu, 01 Oct 2026 02:56:55 GMT</pubDate>
+    <description>New version 7.0.3 released for chat.simplex.app. Direct download: https://f-droid.org/repo/chat.simplex.app_382.apk</description>
   </item>
 </channel>
 </rss>
